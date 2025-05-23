@@ -1,0 +1,35 @@
+/* common start  */
+:root{
+    --black: #010101;
+    --ash: #898989;
+    --yellow: #fcdb00;
+    --pt:  "PT Sans", sans-serif;
+}
+body{
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ash);
+}
+/* common end */
+/* header start  */
+header{
+    padding: 20px 0;
+    background-color: var(--yellow);
+}
+.c_nav{}
+.logo{}
+.menu{}
+.menu ul li a{
+    padding: 0 50px !important;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--black);
+}
+.menu ul li:last-child a{
+    padding-right: 0 !important;
+}
+.menu ul li a:hover{
+    color: white !important;
+}
+/* header end */
